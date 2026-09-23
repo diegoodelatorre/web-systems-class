@@ -40,6 +40,7 @@ header nav ul li{
     text-decoration: none;
     color: var(--texto);
     font-family: var(--texto-font);
+    cursor: pointer;
 }
 
 .logo{
@@ -233,6 +234,20 @@ footer{
     width: 100%;
     height: calc(100% - 50px);
     background-color: var(--primario);
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    color: var(--superficie);
+    font-family: var(--texto-font);
+    padding-top: 5vh;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 7px;
 }
 
 .second-footer{
@@ -244,4 +259,26 @@ footer{
     align-items: center;
     padding-left: 30px;
     font-family: var(--texto-font);
+}
+
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-footer img{
+    margin-top: -10px;
+    width: 60px;
+    height: 38px;
+}
+
+#title-footer{
+    font-size: 45px;
+}
+
+#last-footer{
+    margin-top: 15px;
 }
