@@ -223,3 +223,25 @@ hr{
     width: 23%;
     height: 70%;
 }
+
+footer{
+    width: 100%;
+    height: 35vh;
+}
+
+.first-footer{
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: var(--primario);
+}
+
+.second-footer{
+    width: 100%;
+    height: 50px;
+    background-color: var(--superficie);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    font-family: var(--texto-font);
+}
